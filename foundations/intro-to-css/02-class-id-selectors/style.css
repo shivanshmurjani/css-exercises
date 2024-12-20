@@ -1,0 +1,17 @@
+p{
+    background-color: rgb(218, 135, 135);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+p.cooler{
+    font-size: 24px;
+}
+#theOne{
+    color: blue;
+    font-size: 34px;
+}
+#theTwo{
+    background-color: rgb(149, 239, 149);
+    font-size: 24px;
+    font-weight: bolder;
+}
