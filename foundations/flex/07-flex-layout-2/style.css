@@ -5,9 +5,14 @@ body {
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-weight: 900;
+  font-size: 32px;
 }
 
 .footer {
@@ -26,4 +31,43 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+.main{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  border: 2px solid black;
+}
+.middle{
+  display: flex;
+  flex-grow: 1;
+}
+.sidebar{
+  flex-shrink: 0;
+  width: 300px;
+  padding: 16px;
+}
+ul{
+  list-style: none;
+  font-size: 24px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 48px;
+    gap: 32px;
+}
+.card{
+  padding: 16px;
+  width: 200px;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
